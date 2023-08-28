@@ -1,0 +1,97 @@
+.loginbox {
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  .logtitle {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .pd {
+    position: relative;
+    left: 10%;
+    top: -1%;
+    cursor: pointer;
+    color:#da2f68;
+    @media (max-width: 768px) {
+      left: 16%;
+      top: -1%;
+    }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      left: 29%;
+      top: -1%;
+    }
+  }
+
+  .subtitle {
+    font-size: 13px;
+    margin: 5px;
+    @media (min-width: 768px) and (max-width: 1023px) {
+      font-size: 20px;
+    }
+  }
+
+  .inputlogin {
+    width: 30vw;
+    height: 7vh;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    font-size: 17px;
+    outline: none;
+    background-color: #f8f8f8;
+    color: #333;
+
+    @media (max-width: 768px) {
+      width: 70vw;
+      height: 5vh;
+    }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      width: 80vw;
+      height: 5vh;
+      font-size: 22px;
+    }
+  }
+
+  .loginbtn {
+    .btn {
+      width: 30vw;
+      height: 8vh;
+      color: var(--black);
+      font-size: 24px;
+      padding: 5px;
+      background-image: var(--gradient);
+      border: none;
+      outline: none;
+      cursor: pointer;
+      border-radius: 25px;
+      transition: background-image 0.3s ease-in-out;
+
+      background-color: #007bff;
+      color: #fff;
+      font-weight: bold;
+      @media (max-width: 768px) {
+        width: 70vw;
+        height: 6vh;
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        width: 80vw;
+        height: 5vh;
+        font-size: 22px;
+      }
+
+      &:hover {
+        background-image: linear-gradient(to right, #1c4b91, #f89e00);
+      }
+    }
+  }
+  .signup {
+    #done{
+      color:#da2f68;
+      cursor: pointer;
+    }
+  }
+}
