@@ -7,6 +7,8 @@ import "./Explore.scss";
 import useFetch from "../../Utils/useFetch"
 import fetchDataFromApi from "../../Utils/Api";
 import ContentWrapper from "../../Components/ContentWrapper/ContentWrapper";
+//aman
+
 import MovieCard from "../../Components/moviecard/MovieCard";
 import Spinner from "../../Components/spinner/Spinner";
 
