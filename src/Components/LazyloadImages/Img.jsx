@@ -10,8 +10,7 @@ const Img = (props) => {
     alt=""
     effect='blur'
     src={props.src}
-    />
-    
+    />   
     </div>
   )
 }
