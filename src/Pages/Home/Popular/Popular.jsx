@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ContentWrapper from "../../../Components/contentWrapper/ContentWrapper";
+import ContentWrapper from "../../../Components/ContentWrapper/ContentWrapper"
 import SwitchTabs from "../../../Components/SwitchTabs/SwitchTabs";
 import useFetch from "../../../Utils/useFetch";
 import Carousel from "../../../Components/carousel/Carousel";

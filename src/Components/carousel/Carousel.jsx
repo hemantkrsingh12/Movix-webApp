@@ -6,7 +6,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import dayjs from "dayjs";
-import ContentWrapper from "../contentWrapper/ContentWrapper";
+import ContentWrapper from "../ContentWrapper/ContentWrapper";
 import CircleRating from "../circleRating/CircleRating";
 import Genres from "../genres/Genres";
 import Img from "../LazyloadImages/Img";
